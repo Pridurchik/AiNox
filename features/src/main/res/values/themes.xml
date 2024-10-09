@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NoxAIFeature" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/light_gray</item>
+    </style>
+
+    <style name="Base.Theme.NoxAIFeature." parent="Base.Theme.NoxAIFeature" />
+
+
+
+</resources>

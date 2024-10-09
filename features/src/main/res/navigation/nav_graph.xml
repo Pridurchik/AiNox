@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="org.noxai.features.feature_transaction.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_pagerFragment"
+            app:destination="@id/pagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="org.noxai.features.feature_auth.ui.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" >
+        <action
+            android:id="@+id/action_authFragment_to_chatFragment"
+            app:destination="@id/chatFragment"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_authFragment_to_registFragment"
+            app:destination="@id/registFragment" />
+        <action
+            android:id="@+id/action_authFragment_to_choosingEntryFragment"
+            app:destination="@id/choosingEntryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registFragment"
+        android:name="com.aichat.features.feature_regist.ui.RegistFragment"
+        android:label="fragment_regist"
+        tools:layout="@layout/fragment_regist" >
+        <action
+            android:id="@+id/action_registFragment_to_chatFragment"
+            app:destination="@id/chatFragment"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_registFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+        <action
+            android:id="@+id/action_registFragment_to_choosingEntryFragment"
+            app:destination="@id/choosingEntryFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.aichat.features.feature_chat.ui.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_chatFragment_to_settingsScreenFragment"
+            app:destination="@id/settingsScreenFragment" />
+        <action
+            android:id="@+id/action_chatFragment_to_profileScreenFragment"
+            app:destination="@id/profileScreenFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pagerFragment"
+        android:name="org.noxai.features.feature_transaction.ui.PagerFragment"
+        android:label="fragment_pager"
+        tools:layout="@layout/fragment_pager" >
+        <action
+            android:id="@+id/action_pagerFragment_to_choosingEntryFragment"
+            app:destination="@id/choosingEntryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choosingEntryFragment"
+        android:name="org.noxai.features.feature_transaction.ui.ChoosingEntryFragment"
+        android:label="ChoosingEntryFragment" >
+        <action
+            android:id="@+id/action_choosingEntryFragment_to_registFragment"
+            app:destination="@id/registFragment" />
+        <action
+            android:id="@+id/action_choosingEntryFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+        <action
+            android:id="@+id/action_choosingEntryFragment_to_chatFragment"
+            app:destination="@id/chatFragment"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/settingsScreenFragment"
+        android:name="com.aichat.features.features_settings.ui.SettingsScreenFragment"
+        android:label="fragment_settings_screen"
+        tools:layout="@layout/fragment_settings_screen" >
+        <action
+            android:id="@+id/action_settingsScreenFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileScreenFragment"
+        android:name="org.noxai.features.features_settings.ui.ProfileScreenFragment"
+        android:label="fragment_profile_screen"
+        tools:layout="@layout/fragment_profile_screen" >
+        <action
+            android:id="@+id/action_profileScreenFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+</navigation>

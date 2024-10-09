@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Зарегистрироваться</string>
+    <string name="create_your_account">Создать аккаунт</string>
+    <string name="welcome_back">Welcome Back</string>
+
+    <string name="email_address">Email address</string>
+    <string name="next">Продолжить</string>
+    <string name="have_account_text">У вас есть аккаунт? </string>
+    <string name="log_in">Войти</string>
+    <string name="password">Password</string>
+
+    <string name="nothing" />
+
+    <string name="helper_text_incorrect_mail">Неверный майл</string>
+    <string name="helper_text_incorrect_password">Неверный пароль</string>
+    <string name="helper_text_incorrect_mail_or_password">Неверный майл или пароль</string>
+    <string name="email_is_registered">Майл уже зарегистрирован</string>
+    <string name="limit_regist">Лимит регистрации с одного IP</string>
+    <string name="enter_the_password">Введите пароль</string>
+    <string name="enter_the_email">Введите майл</string>
+    <string name="incorrect_email_format">Неверный формат почтового адреса</string>
+    <string name="incorrect_email_client">Недопустимый почтовый клиент</string>
+    <string name="more_six_characters">Пароль должен быть более 6 символов</string>
+    <string name="incorrect_symbol">Недопустимые символы в поле логина</string>
+
+
+    <string name="regist_in_system_text">Register in the NoxAI system to switch to AI NoxAI Android</string>
+
+    <string name="sign_up_with_email">Sing up with email</string>
+    <string name="continue_with_gmail">Continue with gmail</string>
+    <string name="dialog_pay_checker_2">Первый платеж в 1 руб. за пробный период доступа в личный кабинет на 3 дня, далее, согласно тарифу: 590 руб. за 30 дней доступа к сервису или 290 руб. за 14 дней доступа к сервису или 190 руб. за 7 дней доступа с сервису.</string>
+    <string name="dialog_pay_checker_1">Продолжая использование приложения, вы соглашаетесь с <u>  Условиями лицензионного соглашения </u> </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_noxai">Добро пожаловать \n в NoxAI</string>
+    <string name="example_pagerText">Примеры</string>
+    <string name="firstText_pagerOne">“Объясните квантовые вычисления \n простыми словами”</string>
+    <string name="secondText_pagerOne">“Есть какие-нибудь креативные идеи \nдля дня рождения 10-летнего ребенка?’</string>
+    <string name="thirdText_pagerOne">“Как мне сделать HTTP-запрос \nв Jacascript?”</string>
+    <string name="firstText_pagerTwo">Помнит, что пользователь сказал ранее\nв разговоре</string>
+    <string name="secondText_pagerTwo">Позволяет пользователю обеспечить\nпоследующее наблюдение исправления</string>
+    <string name="thirdText_pagerTwo">Отклоняет неуместные запросы</string>
+    <string name="firstText_pagerThird">Иногда может генерировать\nнеправильную информацию</string>
+    <string name="secondText_pagerThird">Может создавать неверную инструкцию \nили предвзятый контент</string>
+    <string name="limitation_pagerText">Ограничения</string>
+    <string name="ask_anyone">Спроси что угодно, получи ответ</string>
+
+    <string name="choosing_frag_one_step_text">Один шаг до работы с \n безграничным инструментом</string>
+    <string name="choosing_frag_agreement">Нажимая “Продолжить”, вы соглашаетесь с <u>нашими</u> \n<u>Условиями</u> и подтверждаете, что вам исполнилось 18 лет.</string>
+    <string name="regist_with_google">Регистрация с помощью Google</string>
+    <string name="sign_in_with_yandex">Войти с помощью Yandex ID</string>
+    <string name="or">или</string>
+    <string name="regist">Зарегестрироваться</string>
+    <string name="auth">Авторизоваться</string>
+    <string name="sign_in">Войти</string>
+
+    <string name="something_went_wrong">Что то пошло не так</string>
+    <string name="neuro">Нейросеть</string>
+    <string name="pattern">Шаблоны</string>
+    <string name="profile">Профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="new_chat">Новый чат</string>
+    <string name="test_string">Test String</string>
+    <string name="user_is_not_founded">Пользователя не существует</string>
+    <string name="copy">Скопировать</string>
+    <string name="copy_text">"Текст скопирован "</string>
+    <string name="rename">Переименовать</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel_sub_hint_setting">Для отмены подписки, на открывшейся странице пройдите опрос и впишите ваш email в соответствующее поле, после этого пройдите Captcha и нажмите кнопку “Отписаться”.</string>
+    <string name="support_hint_setting">"Напишите нам на почту, если Вы столкнулись с трудностями при работе с приложением, мы обработаем Ваш запрос в порядке очереди "</string>
+</resources>

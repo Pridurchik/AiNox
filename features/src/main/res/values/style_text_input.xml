@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="inactive" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="active" parent="Theme.AppCompat.Light" ignore="StateListReachable">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>
